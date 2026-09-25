@@ -1,6 +1,7 @@
 #pragma once
 #ifndef TIPOPIEZA_H
 #define TIPOPIEZA_H
+#include <string>
 
 struct Pieza {
 	int tipo;
@@ -9,7 +10,7 @@ struct Pieza {
 };
 struct HistorialPuntaje {
 	std::string nombre;
-	int puntaje;
+	int puntaje = 0;
 };
 
 class TipoPieza
