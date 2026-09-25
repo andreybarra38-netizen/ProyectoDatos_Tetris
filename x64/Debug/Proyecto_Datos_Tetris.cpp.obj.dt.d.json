@@ -253,7 +253,9 @@
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\fstream",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\__msvc_filebuf.hpp",
             "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\pilahold.h",
-            "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\listareplay.h"
+            "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\listareplay.h",
+            "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\evento.h",
+            "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\colaevento.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
