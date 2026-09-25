@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\tablero.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\tablero.h",
+            "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\tipopieza.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

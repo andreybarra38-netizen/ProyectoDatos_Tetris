@@ -145,7 +145,15 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ColaPieza.cpp" />
     <ClCompile Include="Proyecto_Datos_Tetris.cpp" />
+    <ClCompile Include="Tablero.cpp" />
+    <ClCompile Include="TipoPieza.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ColaPieza.h" />
+    <ClInclude Include="Tablero.h" />
+    <ClInclude Include="TipoPieza.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
