@@ -96,14 +96,6 @@ void TablaPuntaje::ordenarPorQuicksort() {
     quicksortRecursivo(0, cantidadRegistros - 1);
 }
 
-void TablaPuntaje::mostrarTabla() {
-    std::cout << "\n=== TOP 10 MEJORES PUNTAJES ===\n";
-    for (int i = 0; i < cantidadRegistros; i++) {
-        std::cout << i + 1 << ". " << mejores[i].nombre << " - " << mejores[i].puntaje << " pts\n";
-    }
-    std::cout << "===============================\n";
-}
-
 std::string TablaPuntaje::obtenerTablaString() {
     std::string resultado = "";
     for (int i = 0; i < cantidadRegistros; i++) {

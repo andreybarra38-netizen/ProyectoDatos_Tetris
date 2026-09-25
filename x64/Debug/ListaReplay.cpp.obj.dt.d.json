@@ -1,9 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\tablero.h",
+        "Source": "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\listareplay.cpp",
         "ProvidedModule": "",
         "Includes": [
+            "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\listareplay.h",
             "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\tipopieza.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\string",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\yvals_core.h",
@@ -94,7 +95,8 @@
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\xpolymorphic_allocator.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\tuple",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\cctype",
-            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\ctype.h"
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\ctype.h",
+            "c:\\users\\andre_3e6xvb2\\source\\repos\\proyecto_datos_tetris\\proyecto_datos_tetris\\tablero.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

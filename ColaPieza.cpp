@@ -56,3 +56,15 @@ void ColaPieza::generarBolsa() {
 bool ColaPieza::necesitaMasPiezas() {
     return cantidad <= 3; // Mantiene la cola llena para ver las siguientes piezas
 }
+
+void ColaPieza::verProximasTres(Pieza arregloSalida[3]) {
+    NodoCola* actual = frente;
+    int contador = 0;
+
+    //Recorre la cola para optener las proximas 3 piezas
+    while (actual != nullptr && contador < 3) {
+        arregloSalida[contador] = actual->pieza;
+        actual = actual->siguiente;
+        contador++;
+    }
+}

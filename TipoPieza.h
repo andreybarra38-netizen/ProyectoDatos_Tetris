@@ -12,6 +12,11 @@ struct HistorialPuntaje {
 	std::string nombre;
 	int puntaje = 0;
 };
+struct EstadoMovimiento {
+	Pieza piezaActual;
+	int tableroSnapshot[20][10]; 
+	int puntaje;
+};
 
 class TipoPieza
 {

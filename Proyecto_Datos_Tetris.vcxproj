@@ -146,6 +146,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ColaPieza.cpp" />
+    <ClCompile Include="ListaReplay.cpp" />
+    <ClCompile Include="PilaHold.cpp" />
     <ClCompile Include="Proyecto_Datos_Tetris.cpp" />
     <ClCompile Include="TablaPuntaje.cpp" />
     <ClCompile Include="Tablero.cpp" />
@@ -153,6 +155,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ColaPieza.h" />
+    <ClInclude Include="ListaReplay.h" />
+    <ClInclude Include="PilaHold.h" />
     <ClInclude Include="TablaPuntaje.h" />
     <ClInclude Include="Tablero.h" />
     <ClInclude Include="TipoPieza.h" />

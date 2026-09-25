@@ -24,7 +24,6 @@ public:
     void ordenarPorInsercion();
     void ordenarPorQuicksort();
 
-    void mostrarTabla();
     std::string obtenerTablaString();
 };
 

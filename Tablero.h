@@ -1,8 +1,6 @@
 #pragma once
-
 #ifndef TABLERO_H
 #define TABLERO_H
-
 #include "TipoPieza.h"
 
 struct NodoFila {
@@ -12,9 +10,7 @@ struct NodoFila {
 
 class Tablero {
 private:
-    NodoFila* cabeza; 
-
-   
+    NodoFila* cabeza;
     NodoFila* obtenerFila(int y);
 
 public:
@@ -26,7 +22,8 @@ public:
     bool rotarPieza(Pieza& p);
     int obtenerCelda(int x, int y);
     void insertarFilaVacia();
-    int eliminarFilasCompletas(); 
+    int eliminarFilasCompletas();
+    void restaurarDesdeSnapshot(int snapshot[20][10]);
+    void modificarCelda(int x, int y, int valor);
 };
-
 #endif

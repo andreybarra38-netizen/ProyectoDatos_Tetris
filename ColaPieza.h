@@ -22,6 +22,7 @@ public:
     Pieza desencolar();
     void generarBolsa();         //Generar y encola piezas
     bool necesitaMasPiezas();    // Mantiene el  flujo de piezas 
+    void verProximasTres(Pieza arregloSalida[3]);
 };
 
 #endif
